@@ -42,6 +42,8 @@ end
 # to make sure both conditions can be achieved.
 
 num_quarters = 3
+puts "Do I have enough money for a gumball?"
+
 if num_quarters >= 2
   puts "I have enough money for a gumball"
 else
@@ -64,9 +66,10 @@ end
 
 cups_of_flour = 5
 has_sauce = false
+puts "Do I have the required ingredients to make a pizza?"
 
 if cups_of_flour >= 2 && has_sauce == true
-  puts "I can make pizza"
+  puts "I can make a pizza"
 else
-  puts "I cannot make pizza"
+  puts "I cannot make a pizza"
 end
